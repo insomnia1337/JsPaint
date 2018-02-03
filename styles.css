@@ -9,8 +9,10 @@
     -moz-user-select:none;
     -ms-user-select:none;
     font-size: 24px;
-    
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
+
 
 #clear {
     margin-right: 40px;
@@ -87,4 +89,27 @@ canvas {
 .btn:hover{
     background-color:cyan;
   
+}
+
+@media screen and (max-width: 750px) {
+    #toolbar {
+        height: 150px;
+    }
+    #clear{
+        position: absolute;
+        right: 5px;
+    }
+        
+    
+}
+@media screen and (max-width: 270px) {
+    #toolbar {
+        height: 175px;
+    }
+    #clear{
+        display: none;
+    }
+        
+    
+}
 }
