@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    user-select: none;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    font-size: 24px;
+    
+}
+
+#clear {
+    margin-right: 40px;
+    font-size: 30px;
+    line-height: 3px;
+    float:right;
+    height: 30px;
+    cursor: pointer;
+
+}
+.fa-trash-alt:hover{
+   color:rgb(207, 29, 16);
+   transition: 1s all ease;
+}
+#toolbar {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    position: fixed;
+    top:0;
+    background-color: #2f2f2f;
+    color:whitesmoke;
+    text-align: left;
+}
+.radcontrol{
+    width:30px;
+    height: 30px;
+    background-color:#4f4f4f;
+    display: inline-block;
+    text-align: center;
+    line-height: 22px;
+    padding: 5px;
+    cursor:pointer;
+    transition: 1s all ease; 
+}
+.radcontrol:last-child:hover{
+    background-color:greenyellow;
+}
+#decrad:hover{
+    background-color:red;
+}
+
+canvas {
+    display:inline;
+
+}
+
+#rad{
+    float:left;
+}
+#colors{
+    float:right;
+}
+
+.swatch{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    box-shadow: inset 0px 1px 0px rgba(255,255,255,0.5), 0px 2px 2px rgba(0,0,0,0.5);
+    display: inline-block;
+    margin-left: 10px;
+ 
+}
+.swatch.active {
+    border: 2px solid white;
+    box-shadow: inset 0px 1px 2px rgba(0,0,0,0.5);
+
+}
+
+.modal-title{
+    position: absolute;
+    left: 50px;
+}
+.btn:hover{
+    background-color:cyan;
+  
+}
