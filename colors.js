@@ -1,6 +1,6 @@
 var swatches = document.getElementsByClassName('swatch');
 
-var colors = ['black','grey','white','red','cyan','yellow','green','blue','indigo','violet','purple','magenta']
+var colors = ['black','grey','white','red','cyan','yellow','green','blue','indigo','violet','purple','']
 
 
 for(var i=0,n=colors.length;i<n;i++){

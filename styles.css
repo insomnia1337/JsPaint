@@ -59,8 +59,18 @@ canvas {
     display:inline;
 
 }
+#RadText{
 
+     top: -5px;
+     position: relative;
+
+}
+#radval{
+    position: relative;
+    top:-5px;
+}
 #rad{
+
     float:left;
 }
 #colors{
@@ -88,6 +98,7 @@ canvas {
 }
 .btn:hover{
     background-color:cyan;
+    cursor: pointer;
   
 }
 
